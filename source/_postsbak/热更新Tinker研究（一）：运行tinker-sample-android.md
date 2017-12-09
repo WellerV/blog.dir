@@ -1,6 +1,5 @@
 title: 热更新Tinker研究（一）：运行tinker-sample-android
 date: 2017/03/15 09:34:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -10,8 +9,6 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
 
 ## 一、导入项目
 运行sample项目只需要导入tinker-sample-android工程即可，

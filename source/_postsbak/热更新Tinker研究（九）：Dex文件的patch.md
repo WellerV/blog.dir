@@ -2,7 +2,6 @@
 
 title:  热更新Tinker研究（九）：Dex文件的patch
 date: 2017/04/20 14:29:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,9 +11,8 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
 
+#  热更新Tinker研究（九）：Dex文件的patch
 本文主要讲解dex文件的patch过程，从tinker的DexPatchFile格式分析，对doFullPatch()作为重点讲解。
 
 doFullPatch()的整个过程如图所示：

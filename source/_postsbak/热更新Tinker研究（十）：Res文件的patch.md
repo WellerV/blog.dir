@@ -2,7 +2,6 @@
 
 title: 热更新Tinker研究（十）：Res文件的patch
 date: 2017/04/20 14:31:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,8 +11,6 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
- 本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
  
 ## 一、解析res_meta.txt
  一个简单的例子如下

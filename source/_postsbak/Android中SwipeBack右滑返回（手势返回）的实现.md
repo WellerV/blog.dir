@@ -12,10 +12,10 @@ categories:
 ---
 
 现在有很多App支持右滑返回，比如知乎，效果比较赞。
-于是自己对Activity和Fragment进行了继承，派生出SwipeBackActivity和SwipeBackFragment，用于对这种效果的实现，也就是只要继承这两个类就可以了。
-<!--more-->
 
 ![这里写图片描述](http://img.blog.csdn.net/20151209115408972)
+
+于是自己对Activity和Fragment进行了继承，派生出SwipeBackActivity和SwipeBackFragment，用于对这种效果的实现，也就是只要继承这两个类就可以了。
 
 __效果如下__
 

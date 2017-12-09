@@ -2,7 +2,6 @@
 
 title:  热更新Tinker研究（八）：res和so的patch文件生成
 date: 2017/04/20 14:25:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,8 +11,7 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
+
 
 ResDiffDecoder和BsDiffDecoder分别是负责resource和so文件的patch生成相关的，它们很多地方比较相似，这里放在一起来说明。
 

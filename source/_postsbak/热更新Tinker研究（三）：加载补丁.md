@@ -2,7 +2,6 @@
 
 title: 热更新Tinker研究（三）：加载补丁
 date: 2017/03/22 17:41:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,9 +11,9 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
+ 
 
+# 热更新Tinker研究（三）：加载补丁
 本文主要讲解Tinker加载patch.apk的过程，主要是研究当把patch_signed_7zip.apk推送到sdcard之后，点击LOAD  PATCH按钮之后的流程分析。
 ```
         loadPatchButton.setOnClickListener(new View.OnClickListener() {

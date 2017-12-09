@@ -1,6 +1,5 @@
 title: 热更新Tinker研究（五）：Application的隔离
 date: 2017/04/20 13:44:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -10,9 +9,8 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
 
+#  热更新Tinker研究（五）：Application的隔离
 由于程序默认会加载Application类，所以框架的补丁将不能对它修改了。但是实际过程中却可能需要修改Application中的某些功能。
 
 ## 隔离Application

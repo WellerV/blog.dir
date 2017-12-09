@@ -2,7 +2,6 @@
 
 title:  热更新Tinker研究（六）：TinkerPatchPlugin
 date: 2017/04/20 13:58:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,8 +11,6 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
 
 在我们运行tinkerPatchDebug或者tinkerPatchRelease任务的时候，会执行TinkerPatchPlugin的apply()，实际上编写一个gradle的task只需要继承Plugin<T>即可。
 

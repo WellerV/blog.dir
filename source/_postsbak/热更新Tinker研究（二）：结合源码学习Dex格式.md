@@ -2,7 +2,6 @@
 
 title: 热更新Tinker研究（二）：结合源码学习Dex格式
 date: 2017/03/15 15:56:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,8 +11,6 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
 
 ## 一、Dex文件中的数据类型
 Name	| 	Description

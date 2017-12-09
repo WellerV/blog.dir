@@ -2,7 +2,6 @@
 
 title: 热更新Tinker研究（十一）：so文件的patch
 date: 2017/04/20 14:34:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,8 +11,6 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
 
 ## 一、重要文件说明
 ### 1,关于so_meta.txt
@@ -25,12 +22,11 @@ libHelloJNI.so,lib/armeabi-v7a,bfa1eeb03f9b5d0c8bfa46b30384b436,2738641823,e8dcb
 libHelloJNI.so,lib/armeabi,6f7065d883f7e9687967164e08f1913a,3024247562,6a7492ed0923f006537797d8df547d60
 ```
 具体如下面的表格
-
 | name  | path | md5 | rawCrc | patchMd5 |
-| ------  | -------------------| -------------------| -------------------| ------------------- |
-| libHelloJNI.so	| lib/x86	| 8bee6a211b80de30bd20a3c84f10c606	| 1094172186	| 2b9e5ecfe8ee8ad0f4cd72bce783e662 |
-| libHelloJNI.so    | lib/armeabi-v7a	| bfa1eeb03f9b5d0c8bfa46b30384b436	| 2738641823	| e8dcb4455b0b3395a29599f10def7ccc |
-| libHelloJNI.so	| lib/armeabi	| 6f7065d883f7e9687967164e08f1913a 	| 3024247562	| 6a7492ed0923f006537797d8df547d60 |
+| -------  | ----- | ------------------  | ----------------- | --------------- | ------------- | 
+|libHelloJNI.so	|lib/x86	|8bee6a211b80de30bd20a3c84f10c606	|1094172186	|2b9e5ecfe8ee8ad0f4cd72bce783e662
+|libHelloJNI.so| lib/armeabi-v7a	|bfa1eeb03f9b5d0c8bfa46b30384b436	|2738641823	|e8dcb4455b0b3395a29599f10def7ccc
+|libHelloJNI.so	|lib/armeabi	|6f7065d883f7e9687967164e08f1913a 	|3024247562	|6a7492ed0923f006537797d8df547d60
 
 name表示so文件的名称，path表示路径，md5是新生成so文件的校验值，rawCrc是baskApk的crc,patchMd5是patch.so对应的md5值。
 

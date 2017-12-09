@@ -2,7 +2,6 @@
 
 title: 热更新Tinker研究（四）：TinkerLoader
 date: 2017/04/20 11:46:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,8 +11,6 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
 
 合成补丁后如何在启动后对应用进行更改呢，处理这个事情的主要类是TinkerLoader,对应dex、res、so文件分别是TinkerDexLoader，TinkerResourceLoader以及TinkerSoLoader。
 

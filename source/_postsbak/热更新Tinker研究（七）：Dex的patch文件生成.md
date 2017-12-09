@@ -2,7 +2,6 @@
 
 title:  热更新Tinker研究（七）：Dex的patch文件生成
 date: 2017/04/20 14:05:00
-author: 胡玮
 tags:
 - Android 
 - 补丁
@@ -12,8 +11,7 @@ categories:
 - 基于源码的热更新Tinker框架研究
 
 ---
-本系列文章主要通过源码来分析热修复框架tinker的原理。
-<!--more-->
+
  
 ApkDecoder中的dexPatchDecoder负责dex的patch生成工作，dexPatchDecoder实际上是UniqueDexDiffDecoder类型。这一系列相关的类的关系如下图所示。
 ![enter description here][1]
