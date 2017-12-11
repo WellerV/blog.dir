@@ -25,6 +25,10 @@ $ sudo apt-get update
 ```
  $ sudo apt-get install docker-ce
 ```
+如果找不到，尝试安装docker.io
+```
+ $ sudo apt-get install docker.io
+```
 3) 验证docker是否安装成功
 
 x86_64:
@@ -48,7 +52,7 @@ $ sudo docker run armhf/hello-world
 ```
 #### 配置阿里云加速器
 ```
-udo mkdir -p /etc/docker
+sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
   "registry-mirrors": ["<your accelerate address>t
