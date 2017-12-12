@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 欢迎来到WellerV的博客
+title: WellerV‘s blog
 subtitle:
 description:
 author: WellerV
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -99,4 +99,4 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
-
+      
